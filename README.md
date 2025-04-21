@@ -38,11 +38,11 @@ This system interprets ECG signals from muscle activity to control servo motors 
 - Achieved responsive, muscle-controlled hand movements with minimal delay.
 - Real-time filtering significantly improved control accuracy and reduced false activations.
 
-## 📎 Files
+## 🧠 Code Files
 
-- `arduino_control.ino` – Main Arduino script for ECG reading and motor control.
-- `ecg_circuit_schematic.png` – Signal processing circuit diagram.
-- `prosthetic_hand_design.stl` – 3D model for printing the hand.
+- **`test_motor.ino`** – Simple motor test script that alternates servo position every 5 seconds.
+- **`test_ecg_signal.ino`** – Reads analog ECG input, converts it to voltage, and outputs it via serial monitor for signal analysis.
+- **`ecg_hand_control.ino`** – Core logic: interprets ECG signals and controls servo movement based on threshold detection and signal count logic. Includes timeout handling for inactivity and resets.
 
 ## 📃 License
 
