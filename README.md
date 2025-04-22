@@ -19,7 +19,7 @@ This system interprets ECG signals from muscle activity to control servo motors 
 
 ## ⚙️ Hardware & Tools
 
-- **Arduino Uno**
+- **Arduino Mega 2560**
 - **ECG electrodes**
 - **AD622**, **LM741** op-amps
 - **Servo motors** (SG90 or MG996R)
