@@ -41,8 +41,8 @@ This system interprets ECG signals from muscle activity to control servo motors 
 ## 🧠 Code Files
 
 - **`test_motor.ino`** – Simple motor test script that alternates servo position every 5 seconds.
-- **`test_ecg_signal.ino`** – Reads analog ECG input, converts it to voltage, and outputs it via serial monitor for signal analysis.
-- **`ecg_hand_control.ino`** – Core logic: interprets ECG signals and controls servo movement based on threshold detection and signal count logic. Includes timeout handling for inactivity and resets.
+- **`Test_ECG_Signal.ino`** – Reads analog ECG input, converts it to voltage, and outputs it via serial monitor for signal analysis.
+- **`ECG_hand_control.ino`** – Core logic: interprets ECG signals and controls servo movement based on threshold detection and signal count logic. Includes timeout handling for inactivity and resets.
 
 ## 📃 License
 
