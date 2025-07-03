@@ -1,26 +1,26 @@
-# ECG-Prosthetic-Hand
+# EMG-Prosthetic-Hand
 
-A bioelectronic prosthetic hand controlled by real-time ECG signals. This project combines biomedical signal processing, analog circuitry, and embedded programming to enable intuitive motor-driven actuation for hand movement.
+A bioelectronic prosthetic hand controlled by real-time EMG signals. This project combines biomedical signal processing, analog circuitry, and embedded programming to enable intuitive motor-driven actuation for hand movement.
 
 ## 🛠️ Project Overview
 
 **Duration:** Jan 2025 – Mar 2025  
-This system interprets ECG signals from muscle activity to control servo motors on a 3D-printed prosthetic hand, allowing for natural, real-time movement. The project integrates hardware design, signal conditioning, and embedded software.
+This system interprets EMG signals from muscle activity to control servo motors on a 3D-printed prosthetic hand, allowing for natural, real-time movement. The project integrates hardware design, signal conditioning, and embedded software.
 
 ## 🔧 Features
 
 - 3D-printed prosthetic hand with 5 servo motor joints
-- ECG signal capture and amplification using:
+- EMG signal capture and amplification using:
   - DC offset correction
   - **LM741** operational amplifiers
   - **AD622** instrumentation amplifier
 - Real-time analog signal filtering and gain tuning
-- Arduino-based ECG signal interpretation and motor control
+- Arduino-based EMG signal interpretation and motor control
 
 ## ⚙️ Hardware & Tools
 
 - **Arduino Mega 2560**
-- **ECG electrodes**
+- **EMG electrodes**
 - **AD622**, **LM741** op-amps
 - **Servo motors** (SG90 or MG996R)
 - **3D-printed hand** (PLA material)
@@ -28,9 +28,9 @@ This system interprets ECG signals from muscle activity to control servo motors 
 
 ## 🧠 How It Works
 
-1. ECG signals are collected using surface electrodes.
+1. EMG signals are collected using surface electrodes.
 2. Signals are passed through analog processing circuits for filtering and amplification.
-3. Arduino reads processed ECG waveforms, identifies muscle contractions, and maps them to motor actuation patterns.
+3. Arduino reads processed EMG waveforms, identifies muscle contractions, and maps them to motor actuation patterns.
 4. Servo motors respond in real time to open or close the prosthetic hand.
 
 ## 🧪 Results
@@ -41,8 +41,8 @@ This system interprets ECG signals from muscle activity to control servo motors 
 ## 🧠 Code Files
 
 - **`test_motor.ino`** – Simple motor test script that alternates servo position every 5 seconds.
-- **`Test_ECG_Signal.ino`** – Reads analog ECG input, converts it to voltage, and outputs it via serial monitor for signal analysis.
-- **`ECG_hand_control.ino`** – Core logic: interprets ECG signals and controls servo movement based on threshold detection and signal count logic. Includes timeout handling for inactivity and resets.
+- **`Test_EMG_Signal.ino`** – Reads analog EMG input, converts it to voltage, and outputs it via serial monitor for signal analysis.
+- **`EMG_hand_control.ino`** – Core logic: interprets EMG signals and controls servo movement based on threshold detection and signal count logic. Includes timeout handling for inactivity and resets.
 
 ## 📃 License
 
