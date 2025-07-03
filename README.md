@@ -1,4 +1,4 @@
-# EMG-Prosthetic-Hand
+# EMG Prosthetic Hand
 
 A bioelectronic prosthetic hand controlled by real-time EMG signals. This project combines biomedical signal processing, analog circuitry, and embedded programming to enable intuitive motor-driven actuation for hand movement.
 
